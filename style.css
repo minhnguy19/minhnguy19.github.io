@@ -1,0 +1,116 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url("background.png");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fbd5d9;
+}
+
+.bi {
+  color: #fbd5d9;
+  font-size: 1.5em;
+}
+.nav-link:hover {
+  cursor: pointer;
+  opacity: 75%;
+}
+
+#avatar-section {
+  padding-top: 4em;
+  align-items: center;
+}
+#name {
+  font-weight: 700;
+  padding-bottom: 0.25em;
+}
+
+.img-container {
+  height: 300px;
+  width: 300px;
+  align-items: center;
+}
+
+.avatar {
+  max-width: 100%;
+  height: auto;
+  border-radius: 100px;
+}
+
+.section {
+  padding-top: 11em;
+  font-weight: 600;
+}
+.intro-text {
+  font-weight: 500;
+}
+
+#typing-text span {
+  font-style: italic;
+  color: #f93986;
+}
+
+.marvell {
+  height: 50%;
+  width: 50%;
+  padding-right: 3em;
+  align-self: center;
+}
+
+.experience-box {
+  flex-direction: row;
+}
+.resume-point {
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+
+@media (max-width: 992.98px) {
+  .img-container {
+    height: 20vw;
+    width: 20vw;
+  }
+  #name {
+    font-size: 2.3vw;
+  }
+  .intro-text {
+    font-size: 2vw;
+  }
+  .resume-point {
+    font-size: 1.8vw;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .img-container {
+    height: 50vw;
+    width: 50vw;
+  }
+  #name {
+    align-self: center;
+    font-size: 4.5vw;
+  }
+  .intro-text {
+    align-self: center;
+    font-size: 3.5vw;
+  }
+  #avatar-section {
+    flex-direction: column-reverse;
+  }
+  .avatar-text {
+    padding-top: 3em;
+  }
+
+  .resume-point {
+    font-size: 3.5vw;
+  }
+  .experience-box {
+    flex-direction: column;
+  }
+
+  .marvell {
+    height: 80%;
+    width: 80%;
+    padding-bottom: 3em;
+  }
+}
