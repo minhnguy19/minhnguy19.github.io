@@ -3,17 +3,33 @@ body {
   background-image: url("background.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   background-attachment: fixed;
   color: #fbd5d9;
 }
 
-.bi {
+.nav-link {
   color: #fbd5d9;
   font-size: 1.5em;
 }
 .nav-link:hover {
   cursor: pointer;
-  opacity: 75%;
+  color: #f93986;
+}
+
+.experience-title {
+  color: #ff9cc3;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.8vw;
+}
+
+.experience-skills {
+  color: #ed72a3;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.3vw;
+  text-align: right;
 }
 
 #avatar-section {
@@ -37,8 +53,20 @@ body {
   border-radius: 100px;
 }
 
+.intro {
+  color: #ffc1da;
+}
+.intro a {
+  font-style: italic;
+  color: #f93986;
+  text-underline-offset: 3px;
+}
+
 .break {
   padding-top: 12em;
+}
+.break2 {
+  padding-top: 6em;
 }
 
 .section {
@@ -53,19 +81,11 @@ body {
   color: #f93986;
 }
 
-.marvell {
-  height: 50%;
-  width: 50%;
-  padding-right: 3em;
-  align-self: center;
-}
-
-.experience-box {
-  flex-direction: row;
-}
-.resume-point {
-  font-weight: 500;
-  font-size: 1.5vw;
+footer {
+  color: #ffc1da;
+  font-weight: 400;
+  text-align: center;
+  font-size: small;
 }
 
 @media (max-width: 992.98px) {
@@ -82,9 +102,6 @@ body {
   .intro-text {
     font-size: 2vw;
   }
-  .resume-point {
-    font-size: 1.8vw;
-  }
 }
 
 @media (max-width: 575.98px) {
@@ -97,11 +114,16 @@ body {
     font-size: 4.5vw;
   }
 
-  .section {
-    font-size: 4.5vw;
+  .break {
+    padding-top: 10em;
   }
+
   .intro-text {
     align-self: center;
+    font-size: 3.5vw;
+  }
+
+  .intro {
     font-size: 3.5vw;
   }
   #avatar-section {
@@ -109,21 +131,5 @@ body {
   }
   .avatar-text {
     padding-top: 3em;
-  }
-
-  .resume-point {
-    font-size: 3vw;
-  }
-  .experience-box {
-    flex-direction: column;
-    flex: 1 2;
-  }
-
-  .marvell {
-    height: auto;
-    width: 40vw;
-    padding-right: 0;
-    padding-bottom: 3em;
-    vertical-align: baseline;
   }
 }
