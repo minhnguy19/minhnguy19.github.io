@@ -125,6 +125,7 @@ footer {
 
   .intro {
     font-size: 3.5vw;
+    text-align: end;
   }
   #avatar-section {
     flex-direction: column-reverse;
