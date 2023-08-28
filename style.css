@@ -1,10 +1,9 @@
-body {
+.content {
   font-family: "Montserrat", sans-serif;
   background-image: url("background.png");
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  min-height: 100%;
   color: #fbd5d9;
 }
 
@@ -83,6 +82,9 @@ body {
 }
 
 @media (max-width: 575.98px) {
+  .content {
+    background-attachment: scroll;
+  }
   .img-container {
     height: 50vw;
     width: 50vw;
