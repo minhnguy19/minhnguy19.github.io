@@ -1,7 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-image: url("background.png");
-  background-size: 100vw 100vh;
+  background-size: 100vw auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #fbd5d9;
@@ -37,8 +37,11 @@ body {
   border-radius: 100px;
 }
 
-.section {
+.break {
   padding-top: 11em;
+}
+
+.section {
   font-weight: 600;
 }
 .intro-text {
@@ -73,6 +76,9 @@ body {
   #name {
     font-size: 2.3vw;
   }
+  .section {
+    font-size: 2.3vw;
+  }
   .intro-text {
     font-size: 2vw;
   }
@@ -90,6 +96,10 @@ body {
     align-self: center;
     font-size: 4.5vw;
   }
+
+  .section {
+    font-size: 4.5vw;
+  }
   .intro-text {
     align-self: center;
     font-size: 3.5vw;
@@ -102,7 +112,7 @@ body {
   }
 
   .resume-point {
-    font-size: 3.5vw;
+    font-size: 3vw;
   }
   .experience-box {
     flex-direction: column;
